@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProyectoCoronado
 {
-    public partial class Form1 : Form
+    public partial class InmuebleSetorRegistro : Form
     {
-        public Form1()
+        public InmuebleSetorRegistro()
         {
             InitializeComponent();
         }

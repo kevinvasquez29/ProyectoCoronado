@@ -41,7 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="logAgente.cs" />
+    <Compile Include="logBanco.cs" />
+    <Compile Include="logCasa.cs" />
+    <Compile Include="logCita.cs" />
+    <Compile Include="logCiudad.cs" />
+    <Compile Include="logCliente.cs" />
+    <Compile Include="logContrato.cs" />
+    <Compile Include="logDepartamento.cs" />
+    <Compile Include="logInmueble.cs" />
+    <Compile Include="logPropietario.cs" />
+    <Compile Include="logSector.cs" />
+    <Compile Include="logSitioInmueble.cs" />
+    <Compile Include="logSitioInteres.cs" />
+    <Compile Include="logTerreno.cs" />
+    <Compile Include="logVenta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

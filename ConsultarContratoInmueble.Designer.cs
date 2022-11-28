@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConsultarContratoInmueble));
             this.btnSalirDCI = new System.Windows.Forms.Button();
             this.btnInhabilitarDCI = new System.Windows.Forms.Button();
             this.btAceptar = new System.Windows.Forms.Button();
@@ -36,9 +35,7 @@
             this.labelIngresoDNIDCI = new System.Windows.Forms.Label();
             this.lbDatosContrato = new System.Windows.Forms.Label();
             this.dataGridDatosCI = new System.Windows.Forms.DataGridView();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridDatosCI)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnSalirDCI
@@ -114,18 +111,6 @@
             this.dataGridDatosCI.Size = new System.Drawing.Size(648, 422);
             this.dataGridDatosCI.TabIndex = 8;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1065, 542);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 15;
-            this.pictureBox1.TabStop = false;
-            // 
             // ConsultarContratoInmueble
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -138,11 +123,9 @@
             this.Controls.Add(this.labelIngresoDNIDCI);
             this.Controls.Add(this.lbDatosContrato);
             this.Controls.Add(this.dataGridDatosCI);
-            this.Controls.Add(this.pictureBox1);
             this.Name = "ConsultarContratoInmueble";
             this.Text = "ConsultarContratoInmueble";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridDatosCI)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -157,6 +140,5 @@
         private System.Windows.Forms.Label labelIngresoDNIDCI;
         private System.Windows.Forms.Label lbDatosContrato;
         private System.Windows.Forms.DataGridView dataGridDatosCI;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

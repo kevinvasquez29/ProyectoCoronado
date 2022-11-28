@@ -28,16 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConsultarAgente));
             this.btRegresar = new System.Windows.Forms.Button();
             this.btModificar = new System.Windows.Forms.Button();
             this.txtDni = new System.Windows.Forms.TextBox();
             this.lbIngresaDni = new System.Windows.Forms.Label();
             this.dgvConsultaAgente = new System.Windows.Forms.DataGridView();
             this.lbConsultarAgente = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvConsultaAgente)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btRegresar
@@ -89,7 +86,7 @@
             // dgvConsultaAgente
             // 
             this.dgvConsultaAgente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvConsultaAgente.Location = new System.Drawing.Point(7, 88);
+            this.dgvConsultaAgente.Location = new System.Drawing.Point(13, 114);
             this.dgvConsultaAgente.Margin = new System.Windows.Forms.Padding(4);
             this.dgvConsultaAgente.Name = "dgvConsultaAgente";
             this.dgvConsultaAgente.RowHeadersWidth = 51;
@@ -103,24 +100,12 @@
             this.lbConsultarAgente.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbConsultarAgente.Font = new System.Drawing.Font("Algerian", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbConsultarAgente.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.lbConsultarAgente.Location = new System.Drawing.Point(7, 6);
+            this.lbConsultarAgente.Location = new System.Drawing.Point(7, 9);
             this.lbConsultarAgente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbConsultarAgente.Name = "lbConsultarAgente";
             this.lbConsultarAgente.Size = new System.Drawing.Size(420, 47);
             this.lbConsultarAgente.TabIndex = 7;
             this.lbConsultarAgente.Text = "CONSULTAR AGENTE";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1000, 504);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
             // 
             // ConsultarAgente
             // 
@@ -133,11 +118,9 @@
             this.Controls.Add(this.lbIngresaDni);
             this.Controls.Add(this.dgvConsultaAgente);
             this.Controls.Add(this.lbConsultarAgente);
-            this.Controls.Add(this.pictureBox1);
             this.Name = "ConsultarAgente";
             this.Text = "ConsultarAgente";
             ((System.ComponentModel.ISupportInitialize)(this.dgvConsultaAgente)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -151,6 +134,5 @@
         private System.Windows.Forms.Label lbIngresaDni;
         private System.Windows.Forms.DataGridView dgvConsultaAgente;
         private System.Windows.Forms.Label lbConsultarAgente;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

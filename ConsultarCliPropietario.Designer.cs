@@ -28,17 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConsultarCliPropietario));
             this.lbConsultar = new System.Windows.Forms.Label();
             this.btRegresar = new System.Windows.Forms.Button();
             this.txtIngreseDni = new System.Windows.Forms.TextBox();
             this.btAceptar = new System.Windows.Forms.Button();
             this.lbIngreseDni = new System.Windows.Forms.Label();
             this.dgvDatosPropietario = new System.Windows.Forms.DataGridView();
-            this.pictureBox1Fondo = new System.Windows.Forms.PictureBox();
             this.dgvConsultarCliPropietario = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatosPropietario)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1Fondo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvConsultarCliPropietario)).BeginInit();
             this.SuspendLayout();
             // 
@@ -107,18 +104,6 @@
             this.dgvDatosPropietario.Size = new System.Drawing.Size(605, 426);
             this.dgvDatosPropietario.TabIndex = 45;
             // 
-            // pictureBox1Fondo
-            // 
-            this.pictureBox1Fondo.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1Fondo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1Fondo.Image")));
-            this.pictureBox1Fondo.Location = new System.Drawing.Point(-84, -19);
-            this.pictureBox1Fondo.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1Fondo.Name = "pictureBox1Fondo";
-            this.pictureBox1Fondo.Size = new System.Drawing.Size(1119, 572);
-            this.pictureBox1Fondo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1Fondo.TabIndex = 47;
-            this.pictureBox1Fondo.TabStop = false;
-            // 
             // dgvConsultarCliPropietario
             // 
             this.dgvConsultarCliPropietario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -140,12 +125,10 @@
             this.Controls.Add(this.btAceptar);
             this.Controls.Add(this.lbIngreseDni);
             this.Controls.Add(this.dgvDatosPropietario);
-            this.Controls.Add(this.pictureBox1Fondo);
             this.Controls.Add(this.dgvConsultarCliPropietario);
             this.Name = "ConsultarCliPropietario";
             this.Text = "ConsultarCliPropietario";
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatosPropietario)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1Fondo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvConsultarCliPropietario)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -160,7 +143,6 @@
         private System.Windows.Forms.Button btAceptar;
         private System.Windows.Forms.Label lbIngreseDni;
         private System.Windows.Forms.DataGridView dgvDatosPropietario;
-        private System.Windows.Forms.PictureBox pictureBox1Fondo;
         private System.Windows.Forms.DataGridView dgvConsultarCliPropietario;
     }
 }

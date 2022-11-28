@@ -28,16 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConsultarCliente));
             this.lbConsultar = new System.Windows.Forms.Label();
             this.btRegresar = new System.Windows.Forms.Button();
             this.txtIngreseDni = new System.Windows.Forms.TextBox();
             this.btAceptar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvDatosCliente = new System.Windows.Forms.DataGridView();
-            this.pictureBox1Fondo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatosCliente)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1Fondo)).BeginInit();
             this.SuspendLayout();
             // 
             // lbConsultar
@@ -106,18 +103,6 @@
             this.dgvDatosCliente.Size = new System.Drawing.Size(558, 426);
             this.dgvDatosCliente.TabIndex = 36;
             // 
-            // pictureBox1Fondo
-            // 
-            this.pictureBox1Fondo.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1Fondo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1Fondo.Image")));
-            this.pictureBox1Fondo.Location = new System.Drawing.Point(1, 1);
-            this.pictureBox1Fondo.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1Fondo.Name = "pictureBox1Fondo";
-            this.pictureBox1Fondo.Size = new System.Drawing.Size(975, 544);
-            this.pictureBox1Fondo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1Fondo.TabIndex = 38;
-            this.pictureBox1Fondo.TabStop = false;
-            // 
             // ConsultarCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -129,11 +114,9 @@
             this.Controls.Add(this.btAceptar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvDatosCliente);
-            this.Controls.Add(this.pictureBox1Fondo);
             this.Name = "ConsultarCliente";
             this.Text = "ConsultarCliente";
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatosCliente)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1Fondo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -147,6 +130,5 @@
         private System.Windows.Forms.Button btAceptar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgvDatosCliente;
-        private System.Windows.Forms.PictureBox pictureBox1Fondo;
     }
 }

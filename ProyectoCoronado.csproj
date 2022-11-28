@@ -354,6 +354,21 @@
     <Compile Include="RegistroSitioInmueble.Designer.cs">
       <DependentUpon>RegistroSitioInmueble.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ConsultarAgente.resx">
+      <DependentUpon>ConsultarAgente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultarCiudad.resx">
+      <DependentUpon>consultarCiudad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarCliente.resx">
+      <DependentUpon>ConsultarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarCliPropietario.resx">
+      <DependentUpon>ConsultarCliPropietario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarContratoInmueble.resx">
+      <DependentUpon>ConsultarContratoInmueble.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

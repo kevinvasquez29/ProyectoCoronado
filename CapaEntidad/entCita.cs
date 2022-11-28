@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    internal class entCita
+    public class entCita
     {
+        public int CitaID { get; set; }
+        public Boolean Estadocita { get; set; }
+        public DateTime Fechacita { get; set; }
+        public int ClienteID { get; set; }
+        public int AgenteID { get; set; }
+        public int InmuebleID { get; set; }
+        public Boolean Realizado { get; set; }
     }
 }

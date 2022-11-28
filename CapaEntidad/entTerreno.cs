@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    internal class entTerreno
+    public class entTerreno
     {
+        public int InmuebleID3 { get; set; }
+        public Boolean Luz { get; set; }
+        public Boolean Desague { get; set; }
+        public float Aream2 { get; set; }
+        public Boolean Alcantarillado { get; set; }
+        public Boolean agua { get; set; }
     }
 }

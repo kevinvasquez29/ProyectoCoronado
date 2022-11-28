@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    internal class entSector
+    public class entSector
     {
+        public int SectorID { get; set; }
+        public int CiudadID { get; set; }
+        public string Nombresector { get; set; }
+        public string Comentario { get; set; }
     }
 }

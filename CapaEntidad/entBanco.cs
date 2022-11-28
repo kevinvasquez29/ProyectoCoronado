@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    internal class entBanco
+    public class entBanco
     {
+        public int BancoID { get; set; }
+        public string Nombre { get; set; }
+        public Boolean estadoBanco { get; set; }
+
     }
 }

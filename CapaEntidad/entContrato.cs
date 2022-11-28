@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    internal class entContrato
+    public class entContrato
     {
+        public DateTime Fechacontrato { get; set; }
+        public Boolean Finalizado { get; set; }
+        public float Porcentajecomision { get; set; }
+        public int ContratoID { get; set; }
+        public int InmuebleID { get; set; }
+        public int PropietarioID { get; set; }
     }
 }

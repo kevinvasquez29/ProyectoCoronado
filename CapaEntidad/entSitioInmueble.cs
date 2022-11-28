@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    internal class entSitioInmueble
+    public class entSitioInmueble
     {
+        public int Distancia { get; set; }
+        public int SitiodeinteresID { get; set; }
+        public int InmuebleID { get; set; }
     }
 }

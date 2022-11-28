@@ -369,6 +369,63 @@
     <EmbeddedResource Include="ConsultarContratoInmueble.resx">
       <DependentUpon>ConsultarContratoInmueble.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarInmueble.resx">
+      <DependentUpon>ConsultarInmueble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarSitioInmueble.resx">
+      <DependentUpon>ConsultarSitioInmueble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarSitiosInteres.resx">
+      <DependentUpon>ConsultarSitiosInteres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarVentas.resx">
+      <DependentUpon>ConsultarVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContratoInmueble.resx">
+      <DependentUpon>ContratoInmueble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inmueble.resx">
+      <DependentUpon>Inmueble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InmuebleMantenedorCasa.resx">
+      <DependentUpon>InmuebleMantenedorCasa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InmuebleMostrarSector.resx">
+      <DependentUpon>InmuebleMostrarSector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InmuebleSetorRegistro.resx">
+      <DependentUpon>InmuebleSetorRegistro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorAgente.resx">
+      <DependentUpon>MantenedorAgente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorBanco.resx">
+      <DependentUpon>MantenedorBanco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorCiudad.resx">
+      <DependentUpon>MantenedorCiudad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorCliente.resx">
+      <DependentUpon>MantenedorCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorCliPropietario.resx">
+      <DependentUpon>MantenedorCliPropietario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorDeInmueble.resx">
+      <DependentUpon>MantenedorDeInmueble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorSector.resx">
+      <DependentUpon>MantenedorSector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorSitiosInteres.resx">
+      <DependentUpon>MantenedorSitiosInteres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCita.resx">
+      <DependentUpon>MCita.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

@@ -97,7 +97,7 @@
             // dgvDatosPropietario
             // 
             this.dgvDatosPropietario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDatosPropietario.Location = new System.Drawing.Point(2, 105);
+            this.dgvDatosPropietario.Location = new System.Drawing.Point(-8, 105);
             this.dgvDatosPropietario.Margin = new System.Windows.Forms.Padding(4);
             this.dgvDatosPropietario.Name = "dgvDatosPropietario";
             this.dgvDatosPropietario.RowHeadersWidth = 51;

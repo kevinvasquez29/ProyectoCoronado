@@ -92,6 +92,7 @@
             this.dgvConsultaAgente.RowHeadersWidth = 51;
             this.dgvConsultaAgente.Size = new System.Drawing.Size(653, 263);
             this.dgvConsultaAgente.TabIndex = 9;
+            this.dgvConsultaAgente.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvConsultaAgente_CellContentClick);
             // 
             // lbConsultarAgente
             // 

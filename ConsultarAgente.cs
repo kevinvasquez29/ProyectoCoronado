@@ -16,5 +16,10 @@ namespace ProyectoCoronado
         {
             InitializeComponent();
         }
+
+        private void dgvConsultaAgente_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

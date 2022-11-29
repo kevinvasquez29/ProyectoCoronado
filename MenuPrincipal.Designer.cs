@@ -122,6 +122,7 @@
             this.btCiudad.TabIndex = 60;
             this.btCiudad.Text = "Ciudad";
             this.btCiudad.UseVisualStyleBackColor = true;
+            this.btCiudad.Click += new System.EventHandler(this.btCiudad_Click);
             // 
             // btBanco
             // 
@@ -153,6 +154,7 @@
             this.btCliente.TabIndex = 57;
             this.btCliente.Text = "Cliente";
             this.btCliente.UseVisualStyleBackColor = true;
+            this.btCliente.Click += new System.EventHandler(this.btCliente_Click);
             // 
             // label1Bnaco
             // 
@@ -183,7 +185,7 @@
             this.Controls.Add(this.btAgente);
             this.Controls.Add(this.btCliente);
             this.Controls.Add(this.label1Bnaco);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MenuPrincipal";
             this.Text = "MenuPrincipal";
             this.Load += new System.EventHandler(this.MenuPrincipal_Load);

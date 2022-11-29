@@ -46,5 +46,20 @@ namespace ProyectoCoronado
             this.Hide();
             agente.Show();
         }
+
+        private void btCliente_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btCiudad_Click(object sender, EventArgs e)
+        {
+            if (ciudad == null)
+            {
+                ciudad = new MantenedorCiudad(this);
+            }
+            this.Hide();
+            ciudad.Show();
+        }
     }
 }

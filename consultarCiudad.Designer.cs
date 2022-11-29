@@ -57,6 +57,7 @@
             this.btModificarCiudad.TabIndex = 19;
             this.btModificarCiudad.Text = "Modificar";
             this.btModificarCiudad.UseVisualStyleBackColor = true;
+            this.btModificarCiudad.Click += new System.EventHandler(this.btModificarCiudad_Click);
             // 
             // txtcodCiudad
             // 

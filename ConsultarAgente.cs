@@ -72,5 +72,11 @@ namespace ProyectoCoronado
                 throw ex;
             }
         }
+
+        private void btRegresar_Click(object sender, EventArgs e)
+        {
+            agente.Show();
+            this.Hide();
+        }
     }
 }

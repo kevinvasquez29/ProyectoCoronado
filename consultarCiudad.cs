@@ -16,5 +16,10 @@ namespace ProyectoCoronado
         {
             InitializeComponent();
         }
+
+        private void btRegresar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

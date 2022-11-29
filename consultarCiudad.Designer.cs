@@ -46,6 +46,7 @@
             this.btRegresar.TabIndex = 20;
             this.btRegresar.Text = "Regresar";
             this.btRegresar.UseVisualStyleBackColor = true;
+            this.btRegresar.Click += new System.EventHandler(this.btRegresar_Click);
             // 
             // btModificarCiudad
             // 
@@ -105,7 +106,7 @@
             this.Controls.Add(this.lbIngresaDni);
             this.Controls.Add(this.dgvConsultaCiudad);
             this.Controls.Add(this.lbConsultarCiudad);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "consultarCiudad";
             this.Text = "consultarCiudad";
             ((System.ComponentModel.ISupportInitialize)(this.dgvConsultaCiudad)).EndInit();

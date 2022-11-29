@@ -450,6 +450,15 @@
     <EmbeddedResource Include="ModificarCita.resx">
       <DependentUpon>ModificarCita.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ModificarInhabilitarCiudad.resx">
+      <DependentUpon>ModificarInhabilitarCiudad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarInhabilitarCliente.resx">
+      <DependentUpon>ModificarInhabilitarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarInhabilitarCliPropietario.resx">
+      <DependentUpon>ModificarInhabilitarCliPropietario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

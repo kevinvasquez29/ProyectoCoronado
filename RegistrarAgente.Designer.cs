@@ -49,7 +49,7 @@
             // 
             // dateTimePickerFechaNacimiento
             // 
-            this.dateTimePickerFechaNacimiento.Location = new System.Drawing.Point(286, 324);
+            this.dateTimePickerFechaNacimiento.Location = new System.Drawing.Point(287, 311);
             this.dateTimePickerFechaNacimiento.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePickerFechaNacimiento.Name = "dateTimePickerFechaNacimiento";
             this.dateTimePickerFechaNacimiento.Size = new System.Drawing.Size(379, 22);
@@ -59,7 +59,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(34, 441);
+            this.label6.Location = new System.Drawing.Point(35, 428);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(272, 25);
@@ -68,7 +68,7 @@
             // 
             // txtRegistraCorreoElectronicoAgente
             // 
-            this.txtRegistraCorreoElectronicoAgente.Location = new System.Drawing.Point(292, 446);
+            this.txtRegistraCorreoElectronicoAgente.Location = new System.Drawing.Point(293, 433);
             this.txtRegistraCorreoElectronicoAgente.Margin = new System.Windows.Forms.Padding(4);
             this.txtRegistraCorreoElectronicoAgente.Name = "txtRegistraCorreoElectronicoAgente";
             this.txtRegistraCorreoElectronicoAgente.Size = new System.Drawing.Size(393, 22);
@@ -78,7 +78,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(36, 495);
+            this.label5.Location = new System.Drawing.Point(37, 482);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(173, 25);
@@ -87,7 +87,7 @@
             // 
             // txtRegistrarContraseñaAgente
             // 
-            this.txtRegistrarContraseñaAgente.Location = new System.Drawing.Point(210, 500);
+            this.txtRegistrarContraseñaAgente.Location = new System.Drawing.Point(211, 487);
             this.txtRegistrarContraseñaAgente.Margin = new System.Windows.Forms.Padding(4);
             this.txtRegistrarContraseñaAgente.Name = "txtRegistrarContraseñaAgente";
             this.txtRegistrarContraseñaAgente.Size = new System.Drawing.Size(455, 22);
@@ -107,7 +107,7 @@
             // btnRegistrar
             // 
             this.btnRegistrar.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(735, 245);
+            this.btnRegistrar.Location = new System.Drawing.Point(40, 517);
             this.btnRegistrar.Margin = new System.Windows.Forms.Padding(4);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(213, 60);
@@ -119,12 +119,12 @@
             // 
             this.labelRegistraAgente.AutoSize = true;
             this.labelRegistraAgente.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.labelRegistraAgente.Font = new System.Drawing.Font("Monotype Corsiva", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRegistraAgente.Font = new System.Drawing.Font("Algerian", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRegistraAgente.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.labelRegistraAgente.Location = new System.Drawing.Point(267, 9);
+            this.labelRegistraAgente.Location = new System.Drawing.Point(278, 9);
             this.labelRegistraAgente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRegistraAgente.Name = "labelRegistraAgente";
-            this.labelRegistraAgente.Size = new System.Drawing.Size(495, 97);
+            this.labelRegistraAgente.Size = new System.Drawing.Size(455, 53);
             this.labelRegistraAgente.TabIndex = 54;
             this.labelRegistraAgente.Text = "Registra Agente";
             // 
@@ -132,7 +132,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(38, 385);
+            this.label4.Location = new System.Drawing.Point(39, 372);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(125, 25);
@@ -143,7 +143,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(38, 323);
+            this.label3.Location = new System.Drawing.Point(39, 310);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(235, 25);
@@ -154,7 +154,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(38, 245);
+            this.label2.Location = new System.Drawing.Point(39, 232);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(133, 25);
@@ -165,7 +165,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(38, 171);
+            this.label1.Location = new System.Drawing.Point(39, 158);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(114, 25);
@@ -174,7 +174,7 @@
             // 
             // txtCelularAgente
             // 
-            this.txtCelularAgente.Location = new System.Drawing.Point(207, 385);
+            this.txtCelularAgente.Location = new System.Drawing.Point(208, 372);
             this.txtCelularAgente.Margin = new System.Windows.Forms.Padding(4);
             this.txtCelularAgente.Name = "txtCelularAgente";
             this.txtCelularAgente.Size = new System.Drawing.Size(187, 22);
@@ -182,7 +182,7 @@
             // 
             // txtApellidoAgente
             // 
-            this.txtApellidoAgente.Location = new System.Drawing.Point(207, 245);
+            this.txtApellidoAgente.Location = new System.Drawing.Point(208, 232);
             this.txtApellidoAgente.Margin = new System.Windows.Forms.Padding(4);
             this.txtApellidoAgente.Name = "txtApellidoAgente";
             this.txtApellidoAgente.Size = new System.Drawing.Size(479, 22);
@@ -190,7 +190,7 @@
             // 
             // txtNombreAgente
             // 
-            this.txtNombreAgente.Location = new System.Drawing.Point(207, 176);
+            this.txtNombreAgente.Location = new System.Drawing.Point(208, 163);
             this.txtNombreAgente.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombreAgente.Name = "txtNombreAgente";
             this.txtNombreAgente.Size = new System.Drawing.Size(479, 22);
@@ -198,7 +198,7 @@
             // 
             // txtDniAgente
             // 
-            this.txtDniAgente.Location = new System.Drawing.Point(207, 111);
+            this.txtDniAgente.Location = new System.Drawing.Point(208, 98);
             this.txtDniAgente.Margin = new System.Windows.Forms.Padding(4);
             this.txtDniAgente.Name = "txtDniAgente";
             this.txtDniAgente.Size = new System.Drawing.Size(187, 22);
@@ -208,7 +208,7 @@
             // 
             this.lbDniAgente.AutoSize = true;
             this.lbDniAgente.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbDniAgente.Location = new System.Drawing.Point(38, 111);
+            this.lbDniAgente.Location = new System.Drawing.Point(39, 98);
             this.lbDniAgente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbDniAgente.Name = "lbDniAgente";
             this.lbDniAgente.Size = new System.Drawing.Size(57, 25);

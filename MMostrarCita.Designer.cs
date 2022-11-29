@@ -28,78 +28,89 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.lbDniClienteCita = new System.Windows.Forms.Label();
             this.dataGridViewMostrarCita = new System.Windows.Forms.DataGridView();
-            this.txtIDClienteCita = new System.Windows.Forms.TextBox();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.btnSalirMostrarCita = new System.Windows.Forms.Button();
+            this.txtIDClienteCita = new System.Windows.Forms.TextBox();
+            this.lbDniClienteCita = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMostrarCita)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(284, 41);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Consultar Cita";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // lbDniClienteCita
-            // 
-            this.lbDniClienteCita.AutoSize = true;
-            this.lbDniClienteCita.Location = new System.Drawing.Point(569, 113);
-            this.lbDniClienteCita.Name = "lbDniClienteCita";
-            this.lbDniClienteCita.Size = new System.Drawing.Size(39, 13);
-            this.lbDniClienteCita.TabIndex = 1;
-            this.lbDniClienteCita.Text = "ID Cita";
             // 
             // dataGridViewMostrarCita
             // 
             this.dataGridViewMostrarCita.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewMostrarCita.Location = new System.Drawing.Point(72, 97);
+            this.dataGridViewMostrarCita.Location = new System.Drawing.Point(35, 80);
+            this.dataGridViewMostrarCita.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridViewMostrarCita.Name = "dataGridViewMostrarCita";
-            this.dataGridViewMostrarCita.Size = new System.Drawing.Size(418, 266);
-            this.dataGridViewMostrarCita.TabIndex = 2;
-            // 
-            // txtIDClienteCita
-            // 
-            this.txtIDClienteCita.Location = new System.Drawing.Point(513, 155);
-            this.txtIDClienteCita.Name = "txtIDClienteCita";
-            this.txtIDClienteCita.Size = new System.Drawing.Size(168, 20);
-            this.txtIDClienteCita.TabIndex = 3;
+            this.dataGridViewMostrarCita.RowHeadersWidth = 51;
+            this.dataGridViewMostrarCita.Size = new System.Drawing.Size(563, 438);
+            this.dataGridViewMostrarCita.TabIndex = 36;
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(559, 218);
+            this.btnAceptar.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAceptar.Location = new System.Drawing.Point(718, 267);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(4);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(75, 23);
-            this.btnAceptar.TabIndex = 4;
+            this.btnAceptar.Size = new System.Drawing.Size(176, 38);
+            this.btnAceptar.TabIndex = 35;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
             // 
             // btnSalirMostrarCita
             // 
-            this.btnSalirMostrarCita.Location = new System.Drawing.Point(633, 364);
+            this.btnSalirMostrarCita.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalirMostrarCita.Location = new System.Drawing.Point(945, 490);
+            this.btnSalirMostrarCita.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalirMostrarCita.Name = "btnSalirMostrarCita";
-            this.btnSalirMostrarCita.Size = new System.Drawing.Size(75, 23);
-            this.btnSalirMostrarCita.TabIndex = 5;
+            this.btnSalirMostrarCita.Size = new System.Drawing.Size(109, 46);
+            this.btnSalirMostrarCita.TabIndex = 34;
             this.btnSalirMostrarCita.Text = "Salir";
             this.btnSalirMostrarCita.UseVisualStyleBackColor = true;
             // 
+            // txtIDClienteCita
+            // 
+            this.txtIDClienteCita.Location = new System.Drawing.Point(618, 195);
+            this.txtIDClienteCita.Margin = new System.Windows.Forms.Padding(4);
+            this.txtIDClienteCita.Name = "txtIDClienteCita";
+            this.txtIDClienteCita.Size = new System.Drawing.Size(396, 22);
+            this.txtIDClienteCita.TabIndex = 33;
+            // 
+            // lbDniClienteCita
+            // 
+            this.lbDniClienteCita.AutoSize = true;
+            this.lbDniClienteCita.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbDniClienteCita.Location = new System.Drawing.Point(740, 132);
+            this.lbDniClienteCita.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbDniClienteCita.Name = "lbDniClienteCita";
+            this.lbDniClienteCita.Size = new System.Drawing.Size(116, 31);
+            this.lbDniClienteCita.TabIndex = 32;
+            this.lbDniClienteCita.Text = "ID Cita";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Algerian", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(118, 8);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(411, 53);
+            this.label1.TabIndex = 30;
+            this.label1.Text = "Consultar Cita";
+            // 
             // MMostrarCita
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnSalirMostrarCita);
-            this.Controls.Add(this.btnAceptar);
-            this.Controls.Add(this.txtIDClienteCita);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.dataGridViewMostrarCita);
+            this.Controls.Add(this.btnAceptar);
+            this.Controls.Add(this.btnSalirMostrarCita);
+            this.Controls.Add(this.txtIDClienteCita);
             this.Controls.Add(this.lbDniClienteCita);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MMostrarCita";
             this.Text = "MMostrarCita";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMostrarCita)).EndInit();
@@ -110,11 +121,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lbDniClienteCita;
         private System.Windows.Forms.DataGridView dataGridViewMostrarCita;
-        private System.Windows.Forms.TextBox txtIDClienteCita;
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btnSalirMostrarCita;
+        private System.Windows.Forms.TextBox txtIDClienteCita;
+        private System.Windows.Forms.Label lbDniClienteCita;
+        private System.Windows.Forms.Label label1;
     }
 }

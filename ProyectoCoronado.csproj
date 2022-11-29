@@ -459,6 +459,15 @@
     <EmbeddedResource Include="ModificarInhabilitarCliPropietario.resx">
       <DependentUpon>ModificarInhabilitarCliPropietario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MostrandoBanco.resx">
+      <DependentUpon>MostrandoBanco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MRegistrarCita.resx">
+      <DependentUpon>MRegistrarCita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MRegistrarSitioInteres.resx">
+      <DependentUpon>MRegistrarSitioInteres.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

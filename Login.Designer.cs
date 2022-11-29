@@ -39,10 +39,9 @@
             // 
             // txtContraseña
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(113, 267);
-            this.txtContraseña.Margin = new System.Windows.Forms.Padding(4);
+            this.txtContraseña.Location = new System.Drawing.Point(85, 217);
             this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(463, 22);
+            this.txtContraseña.Size = new System.Drawing.Size(348, 20);
             this.txtContraseña.TabIndex = 14;
             this.txtContraseña.UseSystemPasswordChar = true;
             // 
@@ -50,70 +49,66 @@
             // 
             this.lbContraseña.AutoSize = true;
             this.lbContraseña.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbContraseña.Location = new System.Drawing.Point(108, 211);
-            this.lbContraseña.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbContraseña.Location = new System.Drawing.Point(81, 171);
             this.lbContraseña.Name = "lbContraseña";
-            this.lbContraseña.Size = new System.Drawing.Size(200, 31);
+            this.lbContraseña.Size = new System.Drawing.Size(162, 25);
             this.lbContraseña.TabIndex = 13;
             this.lbContraseña.Text = "Contraseña";
             // 
             // txtNombreDeUsuario
             // 
-            this.txtNombreDeUsuario.Location = new System.Drawing.Point(113, 164);
-            this.txtNombreDeUsuario.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNombreDeUsuario.Location = new System.Drawing.Point(85, 133);
             this.txtNombreDeUsuario.Name = "txtNombreDeUsuario";
-            this.txtNombreDeUsuario.Size = new System.Drawing.Size(463, 22);
+            this.txtNombreDeUsuario.Size = new System.Drawing.Size(348, 20);
             this.txtNombreDeUsuario.TabIndex = 12;
             // 
             // lbNombreUsuario
             // 
             this.lbNombreUsuario.AutoSize = true;
             this.lbNombreUsuario.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNombreUsuario.Location = new System.Drawing.Point(108, 116);
-            this.lbNombreUsuario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbNombreUsuario.Location = new System.Drawing.Point(81, 94);
             this.lbNombreUsuario.Name = "lbNombreUsuario";
-            this.lbNombreUsuario.Size = new System.Drawing.Size(123, 31);
+            this.lbNombreUsuario.Size = new System.Drawing.Size(101, 25);
             this.lbNombreUsuario.TabIndex = 11;
             this.lbNombreUsuario.Text = "Correo";
             // 
             // btnCancelarLogin
             // 
             this.btnCancelarLogin.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelarLogin.Location = new System.Drawing.Point(685, 369);
-            this.btnCancelarLogin.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCancelarLogin.Location = new System.Drawing.Point(514, 300);
             this.btnCancelarLogin.Name = "btnCancelarLogin";
-            this.btnCancelarLogin.Size = new System.Drawing.Size(204, 79);
+            this.btnCancelarLogin.Size = new System.Drawing.Size(153, 64);
             this.btnCancelarLogin.TabIndex = 10;
             this.btnCancelarLogin.Text = "Cancelar";
             this.btnCancelarLogin.UseVisualStyleBackColor = true;
+            this.btnCancelarLogin.Click += new System.EventHandler(this.btnCancelarLogin_Click);
             // 
             // lbLogin
             // 
             this.lbLogin.AutoSize = true;
             this.lbLogin.Font = new System.Drawing.Font("Algerian", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbLogin.Location = new System.Drawing.Point(419, 44);
-            this.lbLogin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbLogin.Location = new System.Drawing.Point(314, 36);
             this.lbLogin.Name = "lbLogin";
-            this.lbLogin.Size = new System.Drawing.Size(157, 53);
+            this.lbLogin.Size = new System.Drawing.Size(129, 42);
             this.lbLogin.TabIndex = 9;
             this.lbLogin.Text = "LOGIN";
             // 
             // btnAceptarLogin
             // 
             this.btnAceptarLogin.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAceptarLogin.Location = new System.Drawing.Point(113, 369);
-            this.btnAceptarLogin.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAceptarLogin.Location = new System.Drawing.Point(85, 300);
             this.btnAceptarLogin.Name = "btnAceptarLogin";
-            this.btnAceptarLogin.Size = new System.Drawing.Size(204, 79);
+            this.btnAceptarLogin.Size = new System.Drawing.Size(153, 64);
             this.btnAceptarLogin.TabIndex = 8;
             this.btnAceptarLogin.Text = "Aceptar";
             this.btnAceptarLogin.UseVisualStyleBackColor = true;
+            this.btnAceptarLogin.Click += new System.EventHandler(this.btnAceptarLogin_Click);
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1010, 535);
+            this.ClientSize = new System.Drawing.Size(758, 435);
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.lbContraseña);
             this.Controls.Add(this.txtNombreDeUsuario);
@@ -121,8 +116,10 @@
             this.Controls.Add(this.btnCancelarLogin);
             this.Controls.Add(this.lbLogin);
             this.Controls.Add(this.btnAceptarLogin);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Login";
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

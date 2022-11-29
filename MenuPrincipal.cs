@@ -7,14 +7,44 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaEntidad;
+using CapaLogica;
 
 namespace ProyectoCoronado
 {
     public partial class MenuPrincipal : Form
     {
-        public MenuPrincipal()
+        Login log;
+        entAgente Agente = new entAgente();
+        MantenedorCliente cliente;
+        MantenedorAgente agente;
+        MantenedorBanco banco;
+        MantenedorCiudad ciudad;
+        MantenedorSitiosInteres sitio;
+        MantenedorCliPropietario propietario;
+        Inmueble inmueble;
+        MenuVentas venta;
+        MCita cita;
+        MantenedorSector sector;
+        public MenuPrincipal(Login login)
         {
             InitializeComponent();
+            log = login;
+        }
+
+        private void MenuPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btAgente_Click(object sender, EventArgs e)
+        {
+            if (agente == null)
+            {
+                agente = new MantenedorAgente(this);
+            }
+            this.Hide();
+            agente.Show();
         }
     }
 }

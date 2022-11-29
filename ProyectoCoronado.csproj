@@ -441,6 +441,15 @@
     <EmbeddedResource Include="MMostrarCita.resx">
       <DependentUpon>MMostrarCita.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ModificarAgente.resx">
+      <DependentUpon>ModificarAgente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarBanco.resx">
+      <DependentUpon>ModificarBanco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarCita.resx">
+      <DependentUpon>ModificarCita.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

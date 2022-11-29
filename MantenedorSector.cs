@@ -12,9 +12,41 @@ namespace ProyectoCoronado
 {
     public partial class MantenedorSector : Form
     {
-        public MantenedorSector()
+        MenuPrincipal principal;
+        InmuebleSetorRegistro registroSector;
+        InmuebleMostrarSector mossector;
+        public MantenedorSector(MenuPrincipal menu)
         {
             InitializeComponent();
+            principal = menu;
+        }
+
+        private void lbRegistrar_Click(object sender, EventArgs e)
+        {
+            if (registroSector == null)
+            {
+                registroSector = new InmuebleSetorRegistro(this);
+            }
+
+            registroSector.Show();
+            this.Hide();
+        }
+
+        private void btConsultar_Click(object sender, EventArgs e)
+        {
+            if (mossector == null)
+            {
+                mossector = new InmuebleMostrarSector(this);
+            }
+            mossector.ListarSectores();
+            mossector.Show();
+            this.Hide();
+        }
+
+        private void btRegresar_Click(object sender, EventArgs e)
+        {
+            principal.Show();
+            this.Hide();
         }
     }
 }

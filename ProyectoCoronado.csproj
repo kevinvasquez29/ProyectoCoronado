@@ -432,6 +432,15 @@
     <EmbeddedResource Include="MenuVentas.resx">
       <DependentUpon>MenuVentas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MModificarCasa.resx">
+      <DependentUpon>MModificarCasa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MModificarDepartamento.resx">
+      <DependentUpon>MModificarDepartamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MModificarSector.resx">
+      <DependentUpon>MModificarSector.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MModificarSitiosInteres.resx">
       <DependentUpon>MModificarSitiosInteres.cs</DependentUpon>
     </EmbeddedResource>
@@ -488,6 +497,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RegistrarCliente.resx">
       <DependentUpon>RegistrarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarCliPropietario.resx">
+      <DependentUpon>RegistrarCliPropietario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarTerreno.resx">
+      <DependentUpon>RegistrarTerreno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegistrarVentaPropios.resx">
       <DependentUpon>RegistrarVentaPropios.cs</DependentUpon>

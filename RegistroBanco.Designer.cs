@@ -86,6 +86,7 @@
             this.bt2RegistarBanco.TabIndex = 5;
             this.bt2RegistarBanco.Text = "Agregar";
             this.bt2RegistarBanco.UseVisualStyleBackColor = true;
+            this.bt2RegistarBanco.Click += new System.EventHandler(this.bt2RegistarBanco_Click);
             // 
             // btSalir
             // 
@@ -95,6 +96,7 @@
             this.btSalir.TabIndex = 6;
             this.btSalir.Text = "Salir";
             this.btSalir.UseVisualStyleBackColor = true;
+            this.btSalir.Click += new System.EventHandler(this.btSalir_Click);
             // 
             // RegistroBanco
             // 

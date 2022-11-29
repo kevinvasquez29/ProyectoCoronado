@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaLogica;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,14 +13,28 @@ namespace ProyectoCoronado
 {
     public partial class ConsultarSitioInmueble : Form
     {
-        public ConsultarSitioInmueble()
+        MantenedorSitiosInteres mantSitiosInteres;
+        public ConsultarSitioInmueble(MantenedorSitiosInteres mant)
         {
             InitializeComponent();
+            mantSitiosInteres = mant;
+            ListarInmueble();
+        }
+
+        public void ListarInmueble()
+        {
+            datagridSitioInmueble.DataSource = logSitioInmueble.Instancia.ListarSitiosInmuebles();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btRegresar_Click(object sender, EventArgs e)
+        {
+            mantSitiosInteres.Show();
+            this.Hide();
         }
     }
 }

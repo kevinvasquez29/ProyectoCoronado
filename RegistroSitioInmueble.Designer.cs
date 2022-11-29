@@ -150,10 +150,15 @@
             // comboBoxTipoInmueble
             // 
             this.comboBoxTipoInmueble.FormattingEnabled = true;
+            this.comboBoxTipoInmueble.Items.AddRange(new object[] {
+            "Casa",
+            "Terreno",
+            "Departamento"});
             this.comboBoxTipoInmueble.Location = new System.Drawing.Point(186, 190);
             this.comboBoxTipoInmueble.Name = "comboBoxTipoInmueble";
             this.comboBoxTipoInmueble.Size = new System.Drawing.Size(306, 21);
             this.comboBoxTipoInmueble.TabIndex = 13;
+            this.comboBoxTipoInmueble.SelectedIndexChanged += new System.EventHandler(this.comboBoxTipoInmueble_SelectedIndexChanged);
             // 
             // BtRegistrarSiti
             // 
@@ -163,6 +168,7 @@
             this.BtRegistrarSiti.TabIndex = 14;
             this.BtRegistrarSiti.Text = "Registrar";
             this.BtRegistrarSiti.UseVisualStyleBackColor = true;
+            this.BtRegistrarSiti.Click += new System.EventHandler(this.BtRegistrarSiti_Click);
             // 
             // btnCancerlarModificarSI
             // 
@@ -172,6 +178,7 @@
             this.btnCancerlarModificarSI.TabIndex = 15;
             this.btnCancerlarModificarSI.Text = "Cancelar";
             this.btnCancerlarModificarSI.UseVisualStyleBackColor = true;
+            this.btnCancerlarModificarSI.Click += new System.EventHandler(this.btnCancerlarModificarSI_Click);
             // 
             // RegistroSitioInmueble
             // 

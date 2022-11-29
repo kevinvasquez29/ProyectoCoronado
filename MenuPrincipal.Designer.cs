@@ -62,6 +62,7 @@
             this.btSector.TabIndex = 66;
             this.btSector.Text = "Sector";
             this.btSector.UseVisualStyleBackColor = true;
+            this.btSector.Click += new System.EventHandler(this.btSector_Click);
             // 
             // btCita
             // 
@@ -72,6 +73,7 @@
             this.btCita.TabIndex = 65;
             this.btCita.Text = "Cita";
             this.btCita.UseVisualStyleBackColor = true;
+            this.btCita.Click += new System.EventHandler(this.btCita_Click);
             // 
             // btVenta
             // 
@@ -82,6 +84,7 @@
             this.btVenta.TabIndex = 64;
             this.btVenta.Text = "Venta";
             this.btVenta.UseVisualStyleBackColor = true;
+            this.btVenta.Click += new System.EventHandler(this.btVenta_Click);
             // 
             // btInmueble
             // 
@@ -92,6 +95,7 @@
             this.btInmueble.TabIndex = 63;
             this.btInmueble.Text = "Inmuebles";
             this.btInmueble.UseVisualStyleBackColor = true;
+            this.btInmueble.Click += new System.EventHandler(this.btInmueble_Click);
             // 
             // btPropietario
             // 
@@ -102,6 +106,7 @@
             this.btPropietario.TabIndex = 62;
             this.btPropietario.Text = "Propietario";
             this.btPropietario.UseVisualStyleBackColor = true;
+            this.btPropietario.Click += new System.EventHandler(this.btPropietario_Click);
             // 
             // btSitioInteres
             // 
@@ -112,6 +117,7 @@
             this.btSitioInteres.TabIndex = 61;
             this.btSitioInteres.Text = "Sitio de Interés";
             this.btSitioInteres.UseVisualStyleBackColor = true;
+            this.btSitioInteres.Click += new System.EventHandler(this.btSitioInteres_Click);
             // 
             // btCiudad
             // 
@@ -134,6 +140,7 @@
             this.btBanco.TabIndex = 59;
             this.btBanco.Text = "Banco";
             this.btBanco.UseVisualStyleBackColor = true;
+            this.btBanco.Click += new System.EventHandler(this.btBanco_Click);
             // 
             // btAgente
             // 

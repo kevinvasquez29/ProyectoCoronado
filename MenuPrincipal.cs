@@ -71,5 +71,75 @@ namespace ProyectoCoronado
         {
             Application.Exit();
         }
+
+        private void btPropietario_Click(object sender, EventArgs e)
+        {
+            if (propietario == null)
+            {
+                propietario = new MantenedorCliPropietario(this);
+            }
+            propietario.Show();
+            this.Hide();
+        }
+
+        private void btVenta_Click(object sender, EventArgs e)
+        {
+            if (venta == null)
+            {
+                venta = new MenuVentas(this);
+            }
+            venta.Show();
+            this.Hide();
+        }
+
+        private void btBanco_Click(object sender, EventArgs e)
+        {
+            if (banco == null)
+            {
+                banco = new MantenedorBanco(this);
+            }
+            this.Hide();
+            banco.Show();
+        }
+
+        private void btSitioInteres_Click(object sender, EventArgs e)
+        {
+            if (sitio == null)
+            {
+                sitio = new MantenedorSitiosInteres(this);
+            }
+            sitio.Show();
+            this.Hide();
+        }
+
+        private void btInmueble_Click(object sender, EventArgs e)
+        {
+            if (inmueble == null)
+            {
+                inmueble = new Inmueble(this);
+            }
+            inmueble.Show();
+            this.Hide();
+        }
+
+        private void btCita_Click(object sender, EventArgs e)
+        {
+            if (cita == null)
+            {
+                cita = new MCita(this);
+            }
+            cita.Show();
+            this.Hide();
+        }
+
+        private void btSector_Click(object sender, EventArgs e)
+        {
+            if (sector == null)
+            {
+                sector = new MantenedorSector(this);
+            }
+            sector.Show();
+            this.Hide();
+        }
     }
 }

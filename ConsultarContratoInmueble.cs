@@ -16,5 +16,10 @@ namespace ProyectoCoronado
         {
             InitializeComponent();
         }
+
+        private void btAceptar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

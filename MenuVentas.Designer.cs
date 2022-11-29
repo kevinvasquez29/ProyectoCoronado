@@ -37,57 +37,55 @@
             // btConsultarVenta
             // 
             this.btConsultarVenta.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btConsultarVenta.Location = new System.Drawing.Point(656, 231);
-            this.btConsultarVenta.Margin = new System.Windows.Forms.Padding(4);
+            this.btConsultarVenta.Location = new System.Drawing.Point(492, 188);
             this.btConsultarVenta.Name = "btConsultarVenta";
-            this.btConsultarVenta.Size = new System.Drawing.Size(301, 114);
+            this.btConsultarVenta.Size = new System.Drawing.Size(226, 93);
             this.btConsultarVenta.TabIndex = 57;
             this.btConsultarVenta.Text = "Consultar Venta Inmuebles";
             this.btConsultarVenta.UseVisualStyleBackColor = true;
+            this.btConsultarVenta.Click += new System.EventHandler(this.btConsultarVenta_Click);
             // 
             // btSalir
             // 
             this.btSalir.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSalir.Location = new System.Drawing.Point(797, 493);
-            this.btSalir.Margin = new System.Windows.Forms.Padding(4);
+            this.btSalir.Location = new System.Drawing.Point(598, 401);
             this.btSalir.Name = "btSalir";
-            this.btSalir.Size = new System.Drawing.Size(160, 48);
+            this.btSalir.Size = new System.Drawing.Size(120, 39);
             this.btSalir.TabIndex = 56;
             this.btSalir.Text = "Salir";
             this.btSalir.UseVisualStyleBackColor = true;
+            this.btSalir.Click += new System.EventHandler(this.btSalir_Click);
             // 
             // btVentaPropio
             // 
             this.btVentaPropio.Font = new System.Drawing.Font("Algerian", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btVentaPropio.Location = new System.Drawing.Point(48, 231);
-            this.btVentaPropio.Margin = new System.Windows.Forms.Padding(4);
+            this.btVentaPropio.Location = new System.Drawing.Point(36, 188);
             this.btVentaPropio.Name = "btVentaPropio";
-            this.btVentaPropio.Size = new System.Drawing.Size(309, 114);
+            this.btVentaPropio.Size = new System.Drawing.Size(232, 93);
             this.btVentaPropio.TabIndex = 55;
             this.btVentaPropio.Text = "Venta de inmuebles";
             this.btVentaPropio.UseVisualStyleBackColor = true;
+            this.btVentaPropio.Click += new System.EventHandler(this.btVentaPropio_Click);
             // 
             // lbVenta
             // 
             this.lbVenta.AutoSize = true;
             this.lbVenta.Font = new System.Drawing.Font("Algerian", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbVenta.Location = new System.Drawing.Point(406, 57);
-            this.lbVenta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbVenta.Location = new System.Drawing.Point(304, 46);
             this.lbVenta.Name = "lbVenta";
-            this.lbVenta.Size = new System.Drawing.Size(185, 66);
+            this.lbVenta.Size = new System.Drawing.Size(150, 54);
             this.lbVenta.TabIndex = 54;
             this.lbVenta.Text = "Menu";
             // 
             // MenuVentas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(970, 554);
+            this.ClientSize = new System.Drawing.Size(728, 450);
             this.Controls.Add(this.btConsultarVenta);
             this.Controls.Add(this.btSalir);
             this.Controls.Add(this.btVentaPropio);
             this.Controls.Add(this.lbVenta);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MenuVentas";
             this.Text = "MenuVentas";
             this.ResumeLayout(false);

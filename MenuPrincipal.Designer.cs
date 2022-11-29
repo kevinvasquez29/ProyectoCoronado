@@ -51,6 +51,7 @@
             this.btSalir.TabIndex = 67;
             this.btSalir.Text = "Salir";
             this.btSalir.UseVisualStyleBackColor = true;
+            this.btSalir.Click += new System.EventHandler(this.btSalir_Click);
             // 
             // btSector
             // 

@@ -44,5 +44,6 @@ namespace CapaLogica
         {
             return datCiudad.Instancia.ExisteDatosCiudadNombre(ciudad);
         }
+
     }
 }

@@ -49,7 +49,12 @@ namespace ProyectoCoronado
 
         private void btCliente_Click(object sender, EventArgs e)
         {
-
+            if (cliente == null)
+            {
+                cliente = new MantenedorCliente(this);
+            }
+            this.Hide();
+            cliente.Show();
         }
 
         private void btCiudad_Click(object sender, EventArgs e)
@@ -60,6 +65,11 @@ namespace ProyectoCoronado
             }
             this.Hide();
             ciudad.Show();
+        }
+
+        private void btSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

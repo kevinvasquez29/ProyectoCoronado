@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MModificarSitiosInteres));
             this.btnDeshabilitar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnModificarSI = new System.Windows.Forms.Button();
@@ -44,9 +45,10 @@
             // btnDeshabilitar
             // 
             this.btnDeshabilitar.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeshabilitar.Location = new System.Drawing.Point(543, 241);
+            this.btnDeshabilitar.Location = new System.Drawing.Point(724, 297);
+            this.btnDeshabilitar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDeshabilitar.Name = "btnDeshabilitar";
-            this.btnDeshabilitar.Size = new System.Drawing.Size(168, 30);
+            this.btnDeshabilitar.Size = new System.Drawing.Size(224, 37);
             this.btnDeshabilitar.TabIndex = 51;
             this.btnDeshabilitar.Text = "Deshabilitar";
             this.btnDeshabilitar.UseVisualStyleBackColor = true;
@@ -55,9 +57,10 @@
             // btnCancelar
             // 
             this.btnCancelar.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(622, 402);
+            this.btnCancelar.Location = new System.Drawing.Point(829, 495);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(168, 30);
+            this.btnCancelar.Size = new System.Drawing.Size(224, 37);
             this.btnCancelar.TabIndex = 50;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -66,9 +69,10 @@
             // btnModificarSI
             // 
             this.btnModificarSI.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificarSI.Location = new System.Drawing.Point(543, 169);
+            this.btnModificarSI.Location = new System.Drawing.Point(724, 208);
+            this.btnModificarSI.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnModificarSI.Name = "btnModificarSI";
-            this.btnModificarSI.Size = new System.Drawing.Size(168, 30);
+            this.btnModificarSI.Size = new System.Drawing.Size(224, 37);
             this.btnModificarSI.TabIndex = 49;
             this.btnModificarSI.Text = "Modificar";
             this.btnModificarSI.UseVisualStyleBackColor = true;
@@ -80,29 +84,32 @@
             this.label1Bnaco.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label1Bnaco.Font = new System.Drawing.Font("Algerian", 25.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1Bnaco.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1Bnaco.Location = new System.Drawing.Point(68, 30);
+            this.label1Bnaco.Location = new System.Drawing.Point(91, 37);
+            this.label1Bnaco.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1Bnaco.Name = "label1Bnaco";
-            this.label1Bnaco.Size = new System.Drawing.Size(734, 39);
+            this.label1Bnaco.Size = new System.Drawing.Size(896, 48);
             this.label1Bnaco.TabIndex = 48;
             this.label1Bnaco.Text = "Modificar Reseñas de Sitio de Interés";
             // 
             // txtCodigoModificaSI
             // 
             this.txtCodigoModificaSI.Font = new System.Drawing.Font("Lucida Fax", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCodigoModificaSI.Location = new System.Drawing.Point(21, 123);
+            this.txtCodigoModificaSI.Location = new System.Drawing.Point(28, 151);
+            this.txtCodigoModificaSI.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCodigoModificaSI.Multiline = true;
             this.txtCodigoModificaSI.Name = "txtCodigoModificaSI";
             this.txtCodigoModificaSI.ReadOnly = true;
-            this.txtCodigoModificaSI.Size = new System.Drawing.Size(214, 23);
+            this.txtCodigoModificaSI.Size = new System.Drawing.Size(284, 27);
             this.txtCodigoModificaSI.TabIndex = 47;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(10, 273);
+            this.label6.Location = new System.Drawing.Point(13, 336);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(317, 21);
+            this.label6.Size = new System.Drawing.Size(376, 25);
             this.label6.TabIndex = 46;
             this.label6.Text = "Direción del Sitio de Interés";
             // 
@@ -110,9 +117,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(16, 171);
+            this.label5.Location = new System.Drawing.Point(21, 210);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(307, 21);
+            this.label5.Size = new System.Drawing.Size(365, 25);
             this.label5.TabIndex = 45;
             this.label5.Text = "Nombre del sitio de Interés";
             // 
@@ -120,9 +128,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(16, 98);
+            this.label4.Location = new System.Drawing.Point(21, 121);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(81, 21);
+            this.label4.Size = new System.Drawing.Size(96, 25);
             this.label4.TabIndex = 44;
             this.label4.Text = "Codigo";
             // 
@@ -130,32 +139,36 @@
             // 
             this.checkBoxHabilitar.AutoSize = true;
             this.checkBoxHabilitar.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxHabilitar.Location = new System.Drawing.Point(124, 379);
+            this.checkBoxHabilitar.Location = new System.Drawing.Point(165, 466);
+            this.checkBoxHabilitar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBoxHabilitar.Name = "checkBoxHabilitar";
-            this.checkBoxHabilitar.Size = new System.Drawing.Size(147, 25);
+            this.checkBoxHabilitar.Size = new System.Drawing.Size(175, 29);
             this.checkBoxHabilitar.TabIndex = 42;
             this.checkBoxHabilitar.Text = "Habilitado";
             this.checkBoxHabilitar.UseVisualStyleBackColor = true;
             // 
             // txtModificarDireccionSI
             // 
-            this.txtModificarDireccionSI.Location = new System.Drawing.Point(13, 309);
+            this.txtModificarDireccionSI.Location = new System.Drawing.Point(17, 380);
+            this.txtModificarDireccionSI.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtModificarDireccionSI.Name = "txtModificarDireccionSI";
-            this.txtModificarDireccionSI.Size = new System.Drawing.Size(364, 20);
+            this.txtModificarDireccionSI.Size = new System.Drawing.Size(484, 22);
             this.txtModificarDireccionSI.TabIndex = 41;
             // 
             // txtModificarNombreSI
             // 
-            this.txtModificarNombreSI.Location = new System.Drawing.Point(13, 215);
+            this.txtModificarNombreSI.Location = new System.Drawing.Point(17, 265);
+            this.txtModificarNombreSI.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtModificarNombreSI.Name = "txtModificarNombreSI";
-            this.txtModificarNombreSI.Size = new System.Drawing.Size(364, 20);
+            this.txtModificarNombreSI.Size = new System.Drawing.Size(484, 22);
             this.txtModificarNombreSI.TabIndex = 40;
             // 
             // MModificarSitiosInteres
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.btnDeshabilitar);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnModificarSI);
@@ -167,6 +180,7 @@
             this.Controls.Add(this.checkBoxHabilitar);
             this.Controls.Add(this.txtModificarDireccionSI);
             this.Controls.Add(this.txtModificarNombreSI);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MModificarSitiosInteres";
             this.Text = "MModificarSitiosInteres";
             this.ResumeLayout(false);

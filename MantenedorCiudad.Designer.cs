@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MantenedorCiudad));
             this.btListarCiudad = new System.Windows.Forms.Button();
             this.btRegistrarCiudad = new System.Windows.Forms.Button();
             this.btRegresar = new System.Windows.Forms.Button();
@@ -37,9 +38,10 @@
             // btListarCiudad
             // 
             this.btListarCiudad.Font = new System.Drawing.Font("Algerian", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btListarCiudad.Location = new System.Drawing.Point(435, 181);
+            this.btListarCiudad.Location = new System.Drawing.Point(580, 223);
+            this.btListarCiudad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btListarCiudad.Name = "btListarCiudad";
-            this.btListarCiudad.Size = new System.Drawing.Size(272, 50);
+            this.btListarCiudad.Size = new System.Drawing.Size(363, 62);
             this.btListarCiudad.TabIndex = 58;
             this.btListarCiudad.Text = "Consultar Ciudad";
             this.btListarCiudad.UseVisualStyleBackColor = true;
@@ -48,9 +50,10 @@
             // btRegistrarCiudad
             // 
             this.btRegistrarCiudad.Font = new System.Drawing.Font("Algerian", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btRegistrarCiudad.Location = new System.Drawing.Point(19, 181);
+            this.btRegistrarCiudad.Location = new System.Drawing.Point(25, 223);
+            this.btRegistrarCiudad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btRegistrarCiudad.Name = "btRegistrarCiudad";
-            this.btRegistrarCiudad.Size = new System.Drawing.Size(272, 50);
+            this.btRegistrarCiudad.Size = new System.Drawing.Size(363, 62);
             this.btRegistrarCiudad.TabIndex = 57;
             this.btRegistrarCiudad.Text = "Registrar Ciudad";
             this.btRegistrarCiudad.UseVisualStyleBackColor = true;
@@ -59,9 +62,10 @@
             // btRegresar
             // 
             this.btRegresar.Font = new System.Drawing.Font("Algerian", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btRegresar.Location = new System.Drawing.Point(549, 375);
+            this.btRegresar.Location = new System.Drawing.Point(732, 462);
+            this.btRegresar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btRegresar.Name = "btRegresar";
-            this.btRegresar.Size = new System.Drawing.Size(173, 50);
+            this.btRegresar.Size = new System.Drawing.Size(231, 62);
             this.btRegresar.TabIndex = 56;
             this.btRegresar.Text = "Regresar";
             this.btRegresar.UseVisualStyleBackColor = true;
@@ -73,22 +77,24 @@
             this.lbMenu.BackColor = System.Drawing.Color.WhiteSmoke;
             this.lbMenu.Font = new System.Drawing.Font("Algerian", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbMenu.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbMenu.Location = new System.Drawing.Point(301, 28);
+            this.lbMenu.Location = new System.Drawing.Point(401, 34);
+            this.lbMenu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbMenu.Name = "lbMenu";
-            this.lbMenu.Size = new System.Drawing.Size(150, 54);
+            this.lbMenu.Size = new System.Drawing.Size(185, 66);
             this.lbMenu.TabIndex = 54;
             this.lbMenu.Text = "Menu";
             // 
             // MantenedorCiudad
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(732, 446);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(976, 549);
             this.Controls.Add(this.btListarCiudad);
             this.Controls.Add(this.btRegistrarCiudad);
             this.Controls.Add(this.btRegresar);
             this.Controls.Add(this.lbMenu);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "MantenedorCiudad";
             this.Text = "MantenedorCiudad";
             this.ResumeLayout(false);

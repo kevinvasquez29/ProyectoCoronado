@@ -21,7 +21,7 @@ namespace CapaDatos
         public SqlConnection Conectar()
         {
             SqlConnection cn = new SqlConnection();
-            cn.ConnectionString = "Data Source=DESKTOP-JCB58SE;  Initial Catalog=BD_final_Coronado; Integrated Security=true";
+            cn.ConnectionString = "Data Source=TUF-505DT;  Initial Catalog=DB_CoronadoFinal; Integrated Security=true";
             return cn;
         }
 

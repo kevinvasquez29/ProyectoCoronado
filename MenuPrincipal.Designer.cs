@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipal));
             this.btSalir = new System.Windows.Forms.Button();
             this.btSector = new System.Windows.Forms.Button();
             this.btCita = new System.Windows.Forms.Button();
@@ -45,9 +46,10 @@
             // btSalir
             // 
             this.btSalir.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSalir.Location = new System.Drawing.Point(570, 440);
+            this.btSalir.Location = new System.Drawing.Point(760, 542);
+            this.btSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btSalir.Name = "btSalir";
-            this.btSalir.Size = new System.Drawing.Size(95, 46);
+            this.btSalir.Size = new System.Drawing.Size(127, 57);
             this.btSalir.TabIndex = 67;
             this.btSalir.Text = "Salir";
             this.btSalir.UseVisualStyleBackColor = true;
@@ -56,9 +58,10 @@
             // btSector
             // 
             this.btSector.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSector.Location = new System.Drawing.Point(392, 378);
+            this.btSector.Location = new System.Drawing.Point(523, 465);
+            this.btSector.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btSector.Name = "btSector";
-            this.btSector.Size = new System.Drawing.Size(168, 30);
+            this.btSector.Size = new System.Drawing.Size(224, 37);
             this.btSector.TabIndex = 66;
             this.btSector.Text = "Sector";
             this.btSector.UseVisualStyleBackColor = true;
@@ -67,9 +70,10 @@
             // btCita
             // 
             this.btCita.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btCita.Location = new System.Drawing.Point(392, 308);
+            this.btCita.Location = new System.Drawing.Point(523, 379);
+            this.btCita.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btCita.Name = "btCita";
-            this.btCita.Size = new System.Drawing.Size(168, 30);
+            this.btCita.Size = new System.Drawing.Size(224, 37);
             this.btCita.TabIndex = 65;
             this.btCita.Text = "Cita";
             this.btCita.UseVisualStyleBackColor = true;
@@ -78,9 +82,10 @@
             // btVenta
             // 
             this.btVenta.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btVenta.Location = new System.Drawing.Point(392, 236);
+            this.btVenta.Location = new System.Drawing.Point(523, 290);
+            this.btVenta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btVenta.Name = "btVenta";
-            this.btVenta.Size = new System.Drawing.Size(168, 30);
+            this.btVenta.Size = new System.Drawing.Size(224, 37);
             this.btVenta.TabIndex = 64;
             this.btVenta.Text = "Venta";
             this.btVenta.UseVisualStyleBackColor = true;
@@ -89,9 +94,10 @@
             // btInmueble
             // 
             this.btInmueble.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btInmueble.Location = new System.Drawing.Point(392, 167);
+            this.btInmueble.Location = new System.Drawing.Point(523, 206);
+            this.btInmueble.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btInmueble.Name = "btInmueble";
-            this.btInmueble.Size = new System.Drawing.Size(168, 30);
+            this.btInmueble.Size = new System.Drawing.Size(224, 37);
             this.btInmueble.TabIndex = 63;
             this.btInmueble.Text = "Inmuebles";
             this.btInmueble.UseVisualStyleBackColor = true;
@@ -100,9 +106,10 @@
             // btPropietario
             // 
             this.btPropietario.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btPropietario.Location = new System.Drawing.Point(392, 98);
+            this.btPropietario.Location = new System.Drawing.Point(523, 121);
+            this.btPropietario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btPropietario.Name = "btPropietario";
-            this.btPropietario.Size = new System.Drawing.Size(168, 30);
+            this.btPropietario.Size = new System.Drawing.Size(224, 37);
             this.btPropietario.TabIndex = 62;
             this.btPropietario.Text = "Propietario";
             this.btPropietario.UseVisualStyleBackColor = true;
@@ -111,9 +118,10 @@
             // btSitioInteres
             // 
             this.btSitioInteres.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSitioInteres.Location = new System.Drawing.Point(26, 378);
+            this.btSitioInteres.Location = new System.Drawing.Point(35, 465);
+            this.btSitioInteres.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btSitioInteres.Name = "btSitioInteres";
-            this.btSitioInteres.Size = new System.Drawing.Size(168, 30);
+            this.btSitioInteres.Size = new System.Drawing.Size(224, 37);
             this.btSitioInteres.TabIndex = 61;
             this.btSitioInteres.Text = "Sitio de Interés";
             this.btSitioInteres.UseVisualStyleBackColor = true;
@@ -123,9 +131,10 @@
             // 
             this.btCiudad.Cursor = System.Windows.Forms.Cursors.Default;
             this.btCiudad.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btCiudad.Location = new System.Drawing.Point(26, 308);
+            this.btCiudad.Location = new System.Drawing.Point(35, 379);
+            this.btCiudad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btCiudad.Name = "btCiudad";
-            this.btCiudad.Size = new System.Drawing.Size(168, 30);
+            this.btCiudad.Size = new System.Drawing.Size(224, 37);
             this.btCiudad.TabIndex = 60;
             this.btCiudad.Text = "Ciudad";
             this.btCiudad.UseVisualStyleBackColor = true;
@@ -134,9 +143,10 @@
             // btBanco
             // 
             this.btBanco.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btBanco.Location = new System.Drawing.Point(26, 236);
+            this.btBanco.Location = new System.Drawing.Point(35, 290);
+            this.btBanco.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btBanco.Name = "btBanco";
-            this.btBanco.Size = new System.Drawing.Size(168, 30);
+            this.btBanco.Size = new System.Drawing.Size(224, 37);
             this.btBanco.TabIndex = 59;
             this.btBanco.Text = "Banco";
             this.btBanco.UseVisualStyleBackColor = true;
@@ -145,9 +155,10 @@
             // btAgente
             // 
             this.btAgente.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btAgente.Location = new System.Drawing.Point(26, 167);
+            this.btAgente.Location = new System.Drawing.Point(35, 206);
+            this.btAgente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btAgente.Name = "btAgente";
-            this.btAgente.Size = new System.Drawing.Size(168, 30);
+            this.btAgente.Size = new System.Drawing.Size(224, 37);
             this.btAgente.TabIndex = 58;
             this.btAgente.Text = "Agente";
             this.btAgente.UseVisualStyleBackColor = true;
@@ -156,9 +167,10 @@
             // btCliente
             // 
             this.btCliente.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btCliente.Location = new System.Drawing.Point(26, 98);
+            this.btCliente.Location = new System.Drawing.Point(35, 121);
+            this.btCliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btCliente.Name = "btCliente";
-            this.btCliente.Size = new System.Drawing.Size(168, 30);
+            this.btCliente.Size = new System.Drawing.Size(224, 37);
             this.btCliente.TabIndex = 57;
             this.btCliente.Text = "Cliente";
             this.btCliente.UseVisualStyleBackColor = true;
@@ -170,17 +182,19 @@
             this.label1Bnaco.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label1Bnaco.Font = new System.Drawing.Font("Algerian", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1Bnaco.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1Bnaco.Location = new System.Drawing.Point(208, 20);
+            this.label1Bnaco.Location = new System.Drawing.Point(277, 25);
+            this.label1Bnaco.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1Bnaco.Name = "label1Bnaco";
-            this.label1Bnaco.Size = new System.Drawing.Size(327, 42);
+            this.label1Bnaco.Size = new System.Drawing.Size(400, 53);
             this.label1Bnaco.TabIndex = 56;
             this.label1Bnaco.Text = "Menu Principal";
             // 
             // MenuPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(679, 496);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(905, 610);
             this.Controls.Add(this.btSalir);
             this.Controls.Add(this.btSector);
             this.Controls.Add(this.btCita);
@@ -193,7 +207,7 @@
             this.Controls.Add(this.btAgente);
             this.Controls.Add(this.btCliente);
             this.Controls.Add(this.label1Bnaco);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "MenuPrincipal";
             this.Text = "MenuPrincipal";
             this.Load += new System.EventHandler(this.MenuPrincipal_Load);

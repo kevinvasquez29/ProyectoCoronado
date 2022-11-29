@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ContratoInmueble));
             this.button1 = new System.Windows.Forms.Button();
             this.labelContratoInmueblePropietario = new System.Windows.Forms.Label();
             this.btnRegistrarContratoInmueble = new System.Windows.Forms.Button();
@@ -82,6 +83,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1011, 553);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnListarContratoInmueble);

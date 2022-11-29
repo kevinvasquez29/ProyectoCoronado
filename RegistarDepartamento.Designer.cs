@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegistarDepartamento));
             this.comboBoxPropietario = new System.Windows.Forms.ComboBox();
             this.comboBoxSector = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -58,42 +59,47 @@
             // comboBoxPropietario
             // 
             this.comboBoxPropietario.FormattingEnabled = true;
-            this.comboBoxPropietario.Location = new System.Drawing.Point(154, 336);
+            this.comboBoxPropietario.Location = new System.Drawing.Point(205, 414);
+            this.comboBoxPropietario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBoxPropietario.Name = "comboBoxPropietario";
-            this.comboBoxPropietario.Size = new System.Drawing.Size(234, 21);
+            this.comboBoxPropietario.Size = new System.Drawing.Size(311, 24);
             this.comboBoxPropietario.TabIndex = 103;
             // 
             // comboBoxSector
             // 
             this.comboBoxSector.FormattingEnabled = true;
-            this.comboBoxSector.Location = new System.Drawing.Point(108, 291);
+            this.comboBoxSector.Location = new System.Drawing.Point(144, 358);
+            this.comboBoxSector.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBoxSector.Name = "comboBoxSector";
-            this.comboBoxSector.Size = new System.Drawing.Size(172, 21);
+            this.comboBoxSector.Size = new System.Drawing.Size(228, 24);
             this.comboBoxSector.TabIndex = 102;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(20, 587);
+            this.label1.Location = new System.Drawing.Point(27, 722);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(260, 21);
+            this.label1.Size = new System.Drawing.Size(308, 25);
             this.label1.TabIndex = 101;
             this.label1.Text = "Fecha de construccion:";
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(260, 587);
+            this.dateTimePicker1.Location = new System.Drawing.Point(347, 722);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(315, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(419, 22);
             this.dateTimePicker1.TabIndex = 100;
             // 
             // Regresar
             // 
             this.Regresar.Font = new System.Drawing.Font("Algerian", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Regresar.Location = new System.Drawing.Point(322, 640);
+            this.Regresar.Location = new System.Drawing.Point(429, 788);
+            this.Regresar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Regresar.Name = "Regresar";
-            this.Regresar.Size = new System.Drawing.Size(173, 50);
+            this.Regresar.Size = new System.Drawing.Size(231, 62);
             this.Regresar.TabIndex = 99;
             this.Regresar.Text = "Regresar";
             this.Regresar.UseVisualStyleBackColor = true;
@@ -102,9 +108,10 @@
             // AceptarRegisDepartamento
             // 
             this.AceptarRegisDepartamento.Font = new System.Drawing.Font("Algerian", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AceptarRegisDepartamento.Location = new System.Drawing.Point(76, 640);
+            this.AceptarRegisDepartamento.Location = new System.Drawing.Point(101, 788);
+            this.AceptarRegisDepartamento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.AceptarRegisDepartamento.Name = "AceptarRegisDepartamento";
-            this.AceptarRegisDepartamento.Size = new System.Drawing.Size(173, 50);
+            this.AceptarRegisDepartamento.Size = new System.Drawing.Size(231, 62);
             this.AceptarRegisDepartamento.TabIndex = 98;
             this.AceptarRegisDepartamento.Text = "Aceptar";
             this.AceptarRegisDepartamento.UseVisualStyleBackColor = true;
@@ -113,82 +120,91 @@
             // textBox1NumRegistPublicosD
             // 
             this.textBox1NumRegistPublicosD.Font = new System.Drawing.Font("Lucida Fax", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1NumRegistPublicosD.Location = new System.Drawing.Point(322, 243);
+            this.textBox1NumRegistPublicosD.Location = new System.Drawing.Point(429, 299);
+            this.textBox1NumRegistPublicosD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1NumRegistPublicosD.Multiline = true;
             this.textBox1NumRegistPublicosD.Name = "textBox1NumRegistPublicosD";
-            this.textBox1NumRegistPublicosD.Size = new System.Drawing.Size(228, 22);
+            this.textBox1NumRegistPublicosD.Size = new System.Drawing.Size(303, 26);
             this.textBox1NumRegistPublicosD.TabIndex = 97;
             // 
             // textBox1MetrosCuadradosD
             // 
             this.textBox1MetrosCuadradosD.Font = new System.Drawing.Font("Lucida Fax", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1MetrosCuadradosD.Location = new System.Drawing.Point(232, 538);
+            this.textBox1MetrosCuadradosD.Location = new System.Drawing.Point(309, 662);
+            this.textBox1MetrosCuadradosD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1MetrosCuadradosD.Multiline = true;
             this.textBox1MetrosCuadradosD.Name = "textBox1MetrosCuadradosD";
-            this.textBox1MetrosCuadradosD.Size = new System.Drawing.Size(326, 22);
+            this.textBox1MetrosCuadradosD.Size = new System.Drawing.Size(433, 26);
             this.textBox1MetrosCuadradosD.TabIndex = 96;
             // 
             // textBox1UbicacionPisosD
             // 
             this.textBox1UbicacionPisosD.Font = new System.Drawing.Font("Lucida Fax", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1UbicacionPisosD.Location = new System.Drawing.Point(201, 493);
+            this.textBox1UbicacionPisosD.Location = new System.Drawing.Point(268, 607);
+            this.textBox1UbicacionPisosD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1UbicacionPisosD.Multiline = true;
             this.textBox1UbicacionPisosD.Name = "textBox1UbicacionPisosD";
-            this.textBox1UbicacionPisosD.Size = new System.Drawing.Size(351, 22);
+            this.textBox1UbicacionPisosD.Size = new System.Drawing.Size(467, 26);
             this.textBox1UbicacionPisosD.TabIndex = 95;
             // 
             // textBox1CantHabitacionesD
             // 
             this.textBox1CantHabitacionesD.Font = new System.Drawing.Font("Lucida Fax", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1CantHabitacionesD.Location = new System.Drawing.Point(292, 440);
+            this.textBox1CantHabitacionesD.Location = new System.Drawing.Point(389, 542);
+            this.textBox1CantHabitacionesD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1CantHabitacionesD.Multiline = true;
             this.textBox1CantHabitacionesD.Name = "textBox1CantHabitacionesD";
-            this.textBox1CantHabitacionesD.Size = new System.Drawing.Size(270, 22);
+            this.textBox1CantHabitacionesD.Size = new System.Drawing.Size(359, 26);
             this.textBox1CantHabitacionesD.TabIndex = 94;
             // 
             // textBox1CantBañosD
             // 
             this.textBox1CantBañosD.Font = new System.Drawing.Font("Lucida Fax", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1CantBañosD.Location = new System.Drawing.Point(201, 388);
+            this.textBox1CantBañosD.Location = new System.Drawing.Point(268, 478);
+            this.textBox1CantBañosD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1CantBañosD.Multiline = true;
             this.textBox1CantBañosD.Name = "textBox1CantBañosD";
-            this.textBox1CantBañosD.Size = new System.Drawing.Size(351, 22);
+            this.textBox1CantBañosD.Size = new System.Drawing.Size(467, 26);
             this.textBox1CantBañosD.TabIndex = 93;
             // 
             // textBox1PrecionMinD
             // 
             this.textBox1PrecionMinD.Font = new System.Drawing.Font("Lucida Fax", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1PrecionMinD.Location = new System.Drawing.Point(184, 198);
+            this.textBox1PrecionMinD.Location = new System.Drawing.Point(245, 244);
+            this.textBox1PrecionMinD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1PrecionMinD.Multiline = true;
             this.textBox1PrecionMinD.Name = "textBox1PrecionMinD";
-            this.textBox1PrecionMinD.Size = new System.Drawing.Size(366, 22);
+            this.textBox1PrecionMinD.Size = new System.Drawing.Size(487, 26);
             this.textBox1PrecionMinD.TabIndex = 92;
             // 
             // textBox1PrecioD
             // 
             this.textBox1PrecioD.Font = new System.Drawing.Font("Lucida Fax", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1PrecioD.Location = new System.Drawing.Point(146, 155);
+            this.textBox1PrecioD.Location = new System.Drawing.Point(195, 191);
+            this.textBox1PrecioD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1PrecioD.Multiline = true;
             this.textBox1PrecioD.Name = "textBox1PrecioD";
-            this.textBox1PrecioD.Size = new System.Drawing.Size(399, 22);
+            this.textBox1PrecioD.Size = new System.Drawing.Size(531, 26);
             this.textBox1PrecioD.TabIndex = 91;
             // 
             // txtDireccionD
             // 
             this.txtDireccionD.Font = new System.Drawing.Font("Lucida Fax", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDireccionD.Location = new System.Drawing.Point(146, 114);
+            this.txtDireccionD.Location = new System.Drawing.Point(195, 140);
+            this.txtDireccionD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDireccionD.Multiline = true;
             this.txtDireccionD.Name = "txtDireccionD";
-            this.txtDireccionD.Size = new System.Drawing.Size(397, 32);
+            this.txtDireccionD.Size = new System.Drawing.Size(528, 38);
             this.txtDireccionD.TabIndex = 90;
             // 
             // MetrosCuadradosD
             // 
             this.MetrosCuadradosD.AutoSize = true;
             this.MetrosCuadradosD.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MetrosCuadradosD.Location = new System.Drawing.Point(34, 538);
+            this.MetrosCuadradosD.Location = new System.Drawing.Point(45, 662);
+            this.MetrosCuadradosD.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.MetrosCuadradosD.Name = "MetrosCuadradosD";
-            this.MetrosCuadradosD.Size = new System.Drawing.Size(223, 21);
+            this.MetrosCuadradosD.Size = new System.Drawing.Size(265, 25);
             this.MetrosCuadradosD.TabIndex = 89;
             this.MetrosCuadradosD.Text = " Metros Cuadrados:";
             // 
@@ -196,9 +212,10 @@
             // 
             this.UbicacionPisosD.AutoSize = true;
             this.UbicacionPisosD.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UbicacionPisosD.Location = new System.Drawing.Point(34, 493);
+            this.UbicacionPisosD.Location = new System.Drawing.Point(45, 607);
+            this.UbicacionPisosD.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.UbicacionPisosD.Name = "UbicacionPisosD";
-            this.UbicacionPisosD.Size = new System.Drawing.Size(182, 21);
+            this.UbicacionPisosD.Size = new System.Drawing.Size(215, 25);
             this.UbicacionPisosD.TabIndex = 88;
             this.UbicacionPisosD.Text = "Ubicacion Pisos:";
             // 
@@ -206,9 +223,10 @@
             // 
             this.CantidadHabitacionesD.AutoSize = true;
             this.CantidadHabitacionesD.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CantidadHabitacionesD.Location = new System.Drawing.Point(28, 440);
+            this.CantidadHabitacionesD.Location = new System.Drawing.Point(37, 542);
+            this.CantidadHabitacionesD.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CantidadHabitacionesD.Name = "CantidadHabitacionesD";
-            this.CantidadHabitacionesD.Size = new System.Drawing.Size(293, 21);
+            this.CantidadHabitacionesD.Size = new System.Drawing.Size(350, 25);
             this.CantidadHabitacionesD.TabIndex = 87;
             this.CantidadHabitacionesD.Text = "Cantidad De Habilationes:";
             // 
@@ -216,9 +234,10 @@
             // 
             this.CantidadBañosD.AutoSize = true;
             this.CantidadBañosD.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CantidadBañosD.Location = new System.Drawing.Point(31, 388);
+            this.CantidadBañosD.Location = new System.Drawing.Point(41, 478);
+            this.CantidadBañosD.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CantidadBañosD.Name = "CantidadBañosD";
-            this.CantidadBañosD.Size = new System.Drawing.Size(184, 21);
+            this.CantidadBañosD.Size = new System.Drawing.Size(221, 25);
             this.CantidadBañosD.TabIndex = 86;
             this.CantidadBañosD.Text = "Cantidad Baños:";
             // 
@@ -226,9 +245,10 @@
             // 
             this.labelIDPropietarioD.AutoSize = true;
             this.labelIDPropietarioD.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelIDPropietarioD.Location = new System.Drawing.Point(28, 336);
+            this.labelIDPropietarioD.Location = new System.Drawing.Point(37, 414);
+            this.labelIDPropietarioD.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelIDPropietarioD.Name = "labelIDPropietarioD";
-            this.labelIDPropietarioD.Size = new System.Drawing.Size(146, 21);
+            this.labelIDPropietarioD.Size = new System.Drawing.Size(174, 25);
             this.labelIDPropietarioD.TabIndex = 85;
             this.labelIDPropietarioD.Text = "Propietario:";
             // 
@@ -236,9 +256,10 @@
             // 
             this.label1IdSectorD.AutoSize = true;
             this.label1IdSectorD.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1IdSectorD.Location = new System.Drawing.Point(28, 287);
+            this.label1IdSectorD.Location = new System.Drawing.Point(37, 353);
+            this.label1IdSectorD.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1IdSectorD.Name = "label1IdSectorD";
-            this.label1IdSectorD.Size = new System.Drawing.Size(91, 21);
+            this.label1IdSectorD.Size = new System.Drawing.Size(107, 25);
             this.label1IdSectorD.TabIndex = 84;
             this.label1IdSectorD.Text = "Sector:";
             // 
@@ -246,9 +267,10 @@
             // 
             this.NumRegisPublicosD.AutoSize = true;
             this.NumRegisPublicosD.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumRegisPublicosD.Location = new System.Drawing.Point(28, 243);
+            this.NumRegisPublicosD.Location = new System.Drawing.Point(37, 299);
+            this.NumRegisPublicosD.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NumRegisPublicosD.Name = "NumRegisPublicosD";
-            this.NumRegisPublicosD.Size = new System.Drawing.Size(340, 21);
+            this.NumRegisPublicosD.Size = new System.Drawing.Size(404, 25);
             this.NumRegisPublicosD.TabIndex = 83;
             this.NumRegisPublicosD.Text = "Numero de Registros Publicos:";
             // 
@@ -256,9 +278,10 @@
             // 
             this.PrecioMinD.AutoSize = true;
             this.PrecioMinD.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PrecioMinD.Location = new System.Drawing.Point(31, 198);
+            this.PrecioMinD.Location = new System.Drawing.Point(41, 244);
+            this.PrecioMinD.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PrecioMinD.Name = "PrecioMinD";
-            this.PrecioMinD.Size = new System.Drawing.Size(161, 21);
+            this.PrecioMinD.Size = new System.Drawing.Size(191, 25);
             this.PrecioMinD.TabIndex = 82;
             this.PrecioMinD.Text = "Precio Minimo:";
             // 
@@ -266,9 +289,10 @@
             // 
             this.PrecioD.AutoSize = true;
             this.PrecioD.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PrecioD.Location = new System.Drawing.Point(31, 155);
+            this.PrecioD.Location = new System.Drawing.Point(41, 191);
+            this.PrecioD.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PrecioD.Name = "PrecioD";
-            this.PrecioD.Size = new System.Drawing.Size(86, 21);
+            this.PrecioD.Size = new System.Drawing.Size(102, 25);
             this.PrecioD.TabIndex = 81;
             this.PrecioD.Text = "Precio:";
             // 
@@ -276,9 +300,10 @@
             // 
             this.DireccionD.AutoSize = true;
             this.DireccionD.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DireccionD.Location = new System.Drawing.Point(28, 114);
+            this.DireccionD.Location = new System.Drawing.Point(37, 140);
+            this.DireccionD.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.DireccionD.Name = "DireccionD";
-            this.DireccionD.Size = new System.Drawing.Size(117, 21);
+            this.DireccionD.Size = new System.Drawing.Size(139, 25);
             this.DireccionD.TabIndex = 80;
             this.DireccionD.Text = "Direccion:";
             // 
@@ -288,17 +313,19 @@
             this.RegistrarDepartamento.BackColor = System.Drawing.Color.WhiteSmoke;
             this.RegistrarDepartamento.Font = new System.Drawing.Font("Algerian", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RegistrarDepartamento.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.RegistrarDepartamento.Location = new System.Drawing.Point(46, 36);
+            this.RegistrarDepartamento.Location = new System.Drawing.Point(61, 44);
+            this.RegistrarDepartamento.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.RegistrarDepartamento.Name = "RegistrarDepartamento";
-            this.RegistrarDepartamento.Size = new System.Drawing.Size(550, 42);
+            this.RegistrarDepartamento.Size = new System.Drawing.Size(672, 53);
             this.RegistrarDepartamento.TabIndex = 79;
             this.RegistrarDepartamento.Text = "Registrar Departamento";
             // 
             // RegistarDepartamento
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(591, 726);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(788, 894);
             this.Controls.Add(this.comboBoxPropietario);
             this.Controls.Add(this.comboBoxSector);
             this.Controls.Add(this.label1);
@@ -324,7 +351,7 @@
             this.Controls.Add(this.PrecioD);
             this.Controls.Add(this.DireccionD);
             this.Controls.Add(this.RegistrarDepartamento);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "RegistarDepartamento";
             this.Text = "RegistarDepartamento";
             this.ResumeLayout(false);

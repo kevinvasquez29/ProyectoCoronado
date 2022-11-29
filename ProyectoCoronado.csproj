@@ -501,6 +501,9 @@
     <EmbeddedResource Include="RegistrarCliPropietario.resx">
       <DependentUpon>RegistrarCliPropietario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarContratoInmueble.resx">
+      <DependentUpon>RegistrarContratoInmueble.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RegistrarTerreno.resx">
       <DependentUpon>RegistrarTerreno.cs</DependentUpon>
     </EmbeddedResource>

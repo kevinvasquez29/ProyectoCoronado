@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegistrarContratoInmueble));
             this.checkBoxHabilitarRCI = new System.Windows.Forms.CheckBox();
             this.btnAceptarRCI = new System.Windows.Forms.Button();
             this.btnCancerlaRCI = new System.Windows.Forms.Button();
@@ -161,7 +162,7 @@
             this.labelRegistrarContratoInmueble.Location = new System.Drawing.Point(195, 29);
             this.labelRegistrarContratoInmueble.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRegistrarContratoInmueble.Name = "labelRegistrarContratoInmueble";
-            this.labelRegistrarContratoInmueble.Size = new System.Drawing.Size(728, 49);
+            this.labelRegistrarContratoInmueble.Size = new System.Drawing.Size(718, 48);
             this.labelRegistrarContratoInmueble.TabIndex = 30;
             this.labelRegistrarContratoInmueble.Text = "Registrar Contrato Inmueble";
             // 
@@ -169,6 +170,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1085, 545);
             this.Controls.Add(this.checkBoxHabilitarRCI);
             this.Controls.Add(this.btnAceptarRCI);

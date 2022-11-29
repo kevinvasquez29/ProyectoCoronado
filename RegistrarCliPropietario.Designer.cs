@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegistrarCliPropietario));
             this.dateTimePickerFechaNacimiento = new System.Windows.Forms.DateTimePicker();
             this.labelRegristarPropietario = new System.Windows.Forms.Label();
             this.btnRegistrar = new System.Windows.Forms.Button();
@@ -47,9 +48,10 @@
             // 
             // dateTimePickerFechaNacimiento
             // 
-            this.dateTimePickerFechaNacimiento.Location = new System.Drawing.Point(231, 246);
+            this.dateTimePickerFechaNacimiento.Location = new System.Drawing.Point(308, 303);
+            this.dateTimePickerFechaNacimiento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dateTimePickerFechaNacimiento.Name = "dateTimePickerFechaNacimiento";
-            this.dateTimePickerFechaNacimiento.Size = new System.Drawing.Size(298, 20);
+            this.dateTimePickerFechaNacimiento.Size = new System.Drawing.Size(396, 22);
             this.dateTimePickerFechaNacimiento.TabIndex = 56;
             // 
             // labelRegristarPropietario
@@ -58,18 +60,20 @@
             this.labelRegristarPropietario.BackColor = System.Drawing.Color.WhiteSmoke;
             this.labelRegristarPropietario.Font = new System.Drawing.Font("Algerian", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRegristarPropietario.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.labelRegristarPropietario.Location = new System.Drawing.Point(150, 19);
+            this.labelRegristarPropietario.Location = new System.Drawing.Point(200, 23);
+            this.labelRegristarPropietario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRegristarPropietario.Name = "labelRegristarPropietario";
-            this.labelRegristarPropietario.Size = new System.Drawing.Size(494, 42);
+            this.labelRegristarPropietario.Size = new System.Drawing.Size(604, 53);
             this.labelRegristarPropietario.TabIndex = 55;
             this.labelRegristarPropietario.Text = "Registrar Propietario";
             // 
             // btnRegistrar
             // 
             this.btnRegistrar.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(40, 392);
+            this.btnRegistrar.Location = new System.Drawing.Point(53, 482);
+            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(160, 49);
+            this.btnRegistrar.Size = new System.Drawing.Size(213, 60);
             this.btnRegistrar.TabIndex = 54;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
@@ -78,9 +82,10 @@
             // btnCancelar
             // 
             this.btnCancelar.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(603, 392);
+            this.btnCancelar.Location = new System.Drawing.Point(804, 482);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(160, 49);
+            this.btnCancelar.Size = new System.Drawing.Size(213, 60);
             this.btnCancelar.TabIndex = 53;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -90,9 +95,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(37, 348);
+            this.label5.Location = new System.Drawing.Point(49, 428);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(117, 21);
+            this.label5.Size = new System.Drawing.Size(139, 25);
             this.label5.TabIndex = 52;
             this.label5.Text = "Direccion:";
             // 
@@ -100,9 +106,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(37, 294);
+            this.label4.Location = new System.Drawing.Point(49, 362);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(104, 21);
+            this.label4.Size = new System.Drawing.Size(125, 25);
             this.label4.TabIndex = 51;
             this.label4.Text = "Celular:";
             // 
@@ -110,9 +117,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(43, 246);
+            this.label3.Location = new System.Drawing.Point(57, 303);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(204, 21);
+            this.label3.Size = new System.Drawing.Size(242, 25);
             this.label3.TabIndex = 50;
             this.label3.Text = "Fecha Nacimiento:";
             // 
@@ -120,9 +128,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(37, 188);
+            this.label2.Location = new System.Drawing.Point(49, 231);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(110, 21);
+            this.label2.Size = new System.Drawing.Size(133, 25);
             this.label2.TabIndex = 49;
             this.label2.Text = "Apellido:";
             // 
@@ -130,62 +139,70 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(37, 138);
+            this.label1.Location = new System.Drawing.Point(49, 170);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 21);
+            this.label1.Size = new System.Drawing.Size(114, 25);
             this.label1.TabIndex = 48;
             this.label1.Text = "Nombre:";
             // 
             // txtDireccion
             // 
-            this.txtDireccion.Location = new System.Drawing.Point(144, 348);
+            this.txtDireccion.Location = new System.Drawing.Point(192, 428);
+            this.txtDireccion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(275, 20);
+            this.txtDireccion.Size = new System.Drawing.Size(365, 22);
             this.txtDireccion.TabIndex = 46;
             // 
             // txtCelular
             // 
-            this.txtCelular.Location = new System.Drawing.Point(144, 298);
+            this.txtCelular.Location = new System.Drawing.Point(192, 367);
+            this.txtCelular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCelular.Name = "txtCelular";
-            this.txtCelular.Size = new System.Drawing.Size(100, 20);
+            this.txtCelular.Size = new System.Drawing.Size(132, 22);
             this.txtCelular.TabIndex = 45;
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(144, 193);
+            this.txtApellido.Location = new System.Drawing.Point(192, 238);
+            this.txtApellido.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(260, 20);
+            this.txtApellido.Size = new System.Drawing.Size(345, 22);
             this.txtApellido.TabIndex = 44;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(144, 138);
+            this.txtNombre.Location = new System.Drawing.Point(192, 170);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(260, 20);
+            this.txtNombre.Size = new System.Drawing.Size(345, 22);
             this.txtNombre.TabIndex = 43;
             // 
             // txtDni
             // 
-            this.txtDni.Location = new System.Drawing.Point(144, 88);
+            this.txtDni.Location = new System.Drawing.Point(192, 108);
+            this.txtDni.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDni.Name = "txtDni";
-            this.txtDni.Size = new System.Drawing.Size(207, 20);
+            this.txtDni.Size = new System.Drawing.Size(275, 22);
             this.txtDni.TabIndex = 42;
             // 
             // lbDni
             // 
             this.lbDni.AutoSize = true;
             this.lbDni.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbDni.Location = new System.Drawing.Point(42, 88);
+            this.lbDni.Location = new System.Drawing.Point(56, 108);
+            this.lbDni.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbDni.Name = "lbDni";
-            this.lbDni.Size = new System.Drawing.Size(47, 21);
+            this.lbDni.Size = new System.Drawing.Size(57, 25);
             this.lbDni.TabIndex = 41;
             this.lbDni.Text = "DNI:";
             // 
             // RegistrarCliPropietario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(772, 452);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1029, 556);
             this.Controls.Add(this.dateTimePickerFechaNacimiento);
             this.Controls.Add(this.labelRegristarPropietario);
             this.Controls.Add(this.btnRegistrar);
@@ -201,7 +218,7 @@
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.txtDni);
             this.Controls.Add(this.lbDni);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "RegistrarCliPropietario";
             this.Text = "RegistrarCliPropietario";
             this.ResumeLayout(false);

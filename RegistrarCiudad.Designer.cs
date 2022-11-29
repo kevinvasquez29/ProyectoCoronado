@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegistrarCiudad));
             this.labelRegistarCiudad = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -45,9 +46,10 @@
             this.labelRegistarCiudad.BackColor = System.Drawing.Color.WhiteSmoke;
             this.labelRegistarCiudad.Font = new System.Drawing.Font("Algerian", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRegistarCiudad.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.labelRegistarCiudad.Location = new System.Drawing.Point(154, 63);
+            this.labelRegistarCiudad.Location = new System.Drawing.Point(205, 78);
+            this.labelRegistarCiudad.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRegistarCiudad.Name = "labelRegistarCiudad";
-            this.labelRegistarCiudad.Size = new System.Drawing.Size(476, 54);
+            this.labelRegistarCiudad.Size = new System.Drawing.Size(588, 66);
             this.labelRegistarCiudad.TabIndex = 52;
             this.labelRegistarCiudad.Text = "Registrar Ciudad";
             // 
@@ -55,9 +57,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(42, 328);
+            this.label4.Location = new System.Drawing.Point(56, 404);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(150, 21);
+            this.label4.Size = new System.Drawing.Size(179, 25);
             this.label4.TabIndex = 51;
             this.label4.Text = "Referencias:";
             // 
@@ -65,9 +68,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(42, 257);
+            this.label3.Location = new System.Drawing.Point(56, 316);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(168, 21);
+            this.label3.Size = new System.Drawing.Size(200, 25);
             this.label3.TabIndex = 50;
             this.label3.Text = "Código Postal:";
             // 
@@ -75,18 +79,20 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(42, 183);
+            this.label1.Location = new System.Drawing.Point(56, 225);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(203, 21);
+            this.label1.Size = new System.Drawing.Size(243, 25);
             this.label1.TabIndex = 49;
             this.label1.Text = "Nombre de Ciudad:";
             // 
             // btnRegistrar
             // 
             this.btnRegistrar.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(381, 385);
+            this.btnRegistrar.Location = new System.Drawing.Point(508, 474);
+            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(160, 49);
+            this.btnRegistrar.Size = new System.Drawing.Size(213, 60);
             this.btnRegistrar.TabIndex = 48;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
@@ -95,9 +101,10 @@
             // btnCancelar
             // 
             this.btnCancelar.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(591, 385);
+            this.btnCancelar.Location = new System.Drawing.Point(788, 474);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(160, 49);
+            this.btnCancelar.Size = new System.Drawing.Size(213, 60);
             this.btnCancelar.TabIndex = 47;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -105,30 +112,34 @@
             // 
             // textReferenciasCiudad
             // 
-            this.textReferenciasCiudad.Location = new System.Drawing.Point(244, 328);
+            this.textReferenciasCiudad.Location = new System.Drawing.Point(325, 404);
+            this.textReferenciasCiudad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textReferenciasCiudad.Name = "textReferenciasCiudad";
-            this.textReferenciasCiudad.Size = new System.Drawing.Size(360, 20);
+            this.textReferenciasCiudad.Size = new System.Drawing.Size(479, 22);
             this.textReferenciasCiudad.TabIndex = 45;
             // 
             // textCódigoPostal
             // 
-            this.textCódigoPostal.Location = new System.Drawing.Point(244, 262);
+            this.textCódigoPostal.Location = new System.Drawing.Point(325, 322);
+            this.textCódigoPostal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textCódigoPostal.Name = "textCódigoPostal";
-            this.textCódigoPostal.Size = new System.Drawing.Size(360, 20);
+            this.textCódigoPostal.Size = new System.Drawing.Size(479, 22);
             this.textCódigoPostal.TabIndex = 44;
             // 
             // txtNombreCiudad
             // 
-            this.txtNombreCiudad.Location = new System.Drawing.Point(244, 183);
+            this.txtNombreCiudad.Location = new System.Drawing.Point(325, 225);
+            this.txtNombreCiudad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNombreCiudad.Name = "txtNombreCiudad";
-            this.txtNombreCiudad.Size = new System.Drawing.Size(360, 20);
+            this.txtNombreCiudad.Size = new System.Drawing.Size(479, 22);
             this.txtNombreCiudad.TabIndex = 43;
             // 
             // RegistrarCiudad
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 476);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1045, 586);
             this.Controls.Add(this.labelRegistarCiudad);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -138,7 +149,7 @@
             this.Controls.Add(this.textReferenciasCiudad);
             this.Controls.Add(this.textCódigoPostal);
             this.Controls.Add(this.txtNombreCiudad);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "RegistrarCiudad";
             this.Text = "RegistrarCiudad";
             this.ResumeLayout(false);

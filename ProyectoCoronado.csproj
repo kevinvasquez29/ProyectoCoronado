@@ -429,6 +429,18 @@
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MenuVentas.resx">
+      <DependentUpon>MenuVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MModificarCasa.resx">
+      <DependentUpon>MModificarCasa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MModificarDepartamento.resx">
+      <DependentUpon>MModificarDepartamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MModificarSector.resx">
+      <DependentUpon>MModificarSector.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MModificarTerreno.resx">
       <DependentUpon>MModificarTerreno.cs</DependentUpon>
     </EmbeddedResource>
